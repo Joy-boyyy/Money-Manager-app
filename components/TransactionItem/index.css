@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.liCl {
+  list-style: none;
+}
+
+.trCl,
+td {
+  padding: 10px;
+}
+
+.trCl {
+  border-bottom: 1px solid black;
+}
+
+.delCl {
+  width: 30px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}

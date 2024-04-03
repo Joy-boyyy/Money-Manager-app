@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.mainDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.headerSec {
+  width: 85vw;
+  padding: 20px;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.spanMoneyManager {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.formCl {
+  display: flex;
+  flex-direction: column;
+}
+
+.addSection {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px 40px;
+}
+.spanCl {
+  margin-bottom: 10px;
+}
+
+.inputCl {
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+.addDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+}
+
+.tableCl {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+}
+
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+}
+
+.trCl {
+  border-bottom: 1px solid black;
+}
+
+/* .trCl,
+td {
+  padding: 10px;
+} */
+
+.trCl,
+th {
+  padding: 10px;
+}
+
+.selectCl {
+  height: 40px;
+}

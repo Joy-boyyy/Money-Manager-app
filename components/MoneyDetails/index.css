@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.boxSec {
+  display: flex;
+}
+.imgCl {
+  width: 70px;
+  height: 70px;
+}
+
+.boxSec {
+  width: 270px;
+  padding: 10px 30px;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainDivCl {
+  width: 85vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.BalanceGreen {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.incomeAqua {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.ExpensesPurple {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
